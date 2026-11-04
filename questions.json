@@ -1,0 +1,177 @@
+{
+  "questions": [
+    {
+      "q": "«Меня зовут Анвар» — bu nima degani?",
+      "options": [
+        "Mening ismim Anvar",
+        "Men Anvarni chaqiraman",
+        "Anvar meni chaqirdi"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "To'g'ri variantni tanlang:\n«___ это книга?» — «Да, это моя книга».",
+      "options": [
+        "Кто",
+        "Что",
+        "Где",
+        "Как"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "«Я ___ в Ташкенте».",
+      "options": [
+        "живу",
+        "живёт",
+        "живут",
+        "живёшь"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "«Стол» so'zi qaysi rodda?",
+      "options": [
+        "Мужской",
+        "Женский",
+        "Средний"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "«Сколько стоит?» — bu nima degani?",
+      "options": [
+        "Necha yoshdasiz?",
+        "Narxi qancha?",
+        "Soat necha?",
+        "Qayerda turibdi?"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "«Вчера я ___ в магазин».",
+      "options": [
+        "иду",
+        "пойду",
+        "ходил",
+        "хожу"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "«Я думаю о ___».",
+      "options": [
+        "мама",
+        "маму",
+        "маме",
+        "мамой"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "«У меня нет ___».",
+      "options": [
+        "машина",
+        "машины",
+        "машину",
+        "машиной"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "«Завтра мы ___ фильм».",
+      "options": [
+        "смотрели",
+        "будем смотреть",
+        "смотрим вчера",
+        "смотрел"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "«Мне ___ 25 лет».",
+      "options": [
+        "есть",
+        "будет быть",
+        "—  (hech narsa kerak emas)",
+        "имею"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "«Если бы я знал, я бы ___ тебе».",
+      "options": [
+        "сказал",
+        "скажу",
+        "говорю",
+        "скажи"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "«Он работает здесь ___ трёх лет».",
+      "options": [
+        "в течение",
+        "уже",
+        "за",
+        "через"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Ma'nosi eng yaqin variant: «Мне не по себе».",
+      "options": [
+        "Menga yoqmaydi",
+        "O'zimni noqulay his qilyapman",
+        "Bu meniki emas",
+        "Menga tegishli emas"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "«Книга, ___ я вчера купил, очень интересная».",
+      "options": [
+        "которая",
+        "которую",
+        "которой",
+        "который"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "«Он не пришёл, ___ заболел».",
+      "options": [
+        "поэтому",
+        "потому что",
+        "чтобы",
+        "хотя"
+      ],
+      "answer": 1
+    }
+  ],
+  "levels": [
+    {
+      "min": 11,
+      "level": "B1"
+    },
+    {
+      "min": 6,
+      "level": "A2"
+    },
+    {
+      "min": 0,
+      "level": "A1"
+    }
+  ],
+  "descriptions": {
+    "A1": "Siz rus tilida boshlang'ich darajadasiz. Ko'p so'zlarni tushunasiz, lekin gap tuzish va gapirish hali qiyin. Bu — eng to'g'ri boshlash nuqtasi: to'g'ri usul bilan tez o'sasiz.",
+    "A2": "Siz grammatikani qisman bilasiz va oddiy gaplarni tushunasiz. Lekin gapirishga kelganda «bilaman, lekin gapira olmayman» holati bo'ladi. Sizga eng kerakli narsa — amaliy razgovor.",
+    "B1": "Sizda yaxshi baza bor! Grammatika va so'z boyligi yetarli. Endi asosiy vazifa — qo'rqmasdan, erkin va ravon gapirishni yo'lga qo'yish."
+  },
+  "goal_question": "Rus tili sizga nima uchun kerak?",
+  "goal_options": [
+    "Gapirish",
+    "Milliy sertifikat",
+    "Ikkalasi"
+  ]
+}

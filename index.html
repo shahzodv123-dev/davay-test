@@ -210,7 +210,7 @@
       </div>
       <div class="row">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></div>
-        <div><b>Natija: A1 · A2 · B1</b><span>Qisqa izoh bilan</span></div>
+        <div><b id="lvlnames">Natija: A0 · A1 · A2</b><span>Qisqa izoh bilan</span></div>
       </div>
       <div class="row">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a7 7 0 00-4 12.7V17h8v-2.3A7 7 0 0012 2z"/></svg></div>
@@ -255,7 +255,7 @@
           <circle class="val" id="arc" cx="60" cy="60" r="52" fill="none" stroke-width="10" stroke-dasharray="326.7" stroke-dashoffset="326.7"/></svg>
         <div class="in"><div class="lvl" id="level">A2</div><div class="sc" id="score">8 / 15</div></div>
       </div>
-      <div class="scale" id="scale"><span>A1</span><span>A2</span><span>B1</span></div>
+      <div class="scale" id="scale"></div>
     </div>
     <div class="glass desc" id="desc"></div>
     <div class="offer">
@@ -294,6 +294,10 @@ fetch('questions.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
     .concat([{ q: d.goal_question, options: d.goal_options, goal: true }]);
   $('qcount').textContent = d.questions.length;
   $('segs').innerHTML = steps.map(() => '<i></i>').join('');
+  // darajalar ro'yxati questions.json dan (pastdan yuqoriga)
+  const names = [...d.levels].sort((a, b) => a.min - b.min).map(l => l.level);
+  $('lvlnames').textContent = 'Natija: ' + names.join(' · ');
+  $('scale').innerHTML = names.map(n => `<span>${n}</span>`).join('');
 });
 
 function start() {

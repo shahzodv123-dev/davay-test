@@ -1,177 +1,46 @@
 {
   "questions": [
-    {
-      "q": "«Меня зовут Анвар» — bu nima degani?",
-      "options": [
-        "Mening ismim Anvar",
-        "Men Anvarni chaqiraman",
-        "Anvar meni chaqirdi"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "To'g'ri variantni tanlang:\n«___ это книга?» — «Да, это моя книга».",
-      "options": [
-        "Кто",
-        "Что",
-        "Где",
-        "Как"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "«Я ___ в Ташкенте».",
-      "options": [
-        "живу",
-        "живёт",
-        "живут",
-        "живёшь"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "«Стол» so'zi qaysi rodda?",
-      "options": [
-        "Мужской",
-        "Женский",
-        "Средний"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "«Сколько стоит?» — bu nima degani?",
-      "options": [
-        "Necha yoshdasiz?",
-        "Narxi qancha?",
-        "Soat necha?",
-        "Qayerda turibdi?"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "«Вчера я ___ в магазин».",
-      "options": [
-        "иду",
-        "пойду",
-        "ходил",
-        "хожу"
-      ],
-      "answer": 2
-    },
-    {
-      "q": "«Я думаю о ___».",
-      "options": [
-        "мама",
-        "маму",
-        "маме",
-        "мамой"
-      ],
-      "answer": 2
-    },
-    {
-      "q": "«У меня нет ___».",
-      "options": [
-        "машина",
-        "машины",
-        "машину",
-        "машиной"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "«Завтра мы ___ фильм».",
-      "options": [
-        "смотрели",
-        "будем смотреть",
-        "смотрим вчера",
-        "смотрел"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "«Мне ___ 25 лет».",
-      "options": [
-        "есть",
-        "будет быть",
-        "—  (hech narsa kerak emas)",
-        "имею"
-      ],
-      "answer": 2
-    },
-    {
-      "q": "«Если бы я знал, я бы ___ тебе».",
-      "options": [
-        "сказал",
-        "скажу",
-        "говорю",
-        "скажи"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "«Он работает здесь ___ трёх лет».",
-      "options": [
-        "в течение",
-        "уже",
-        "за",
-        "через"
-      ],
-      "answer": 0
-    },
-    {
-      "q": "Ma'nosi eng yaqin variant: «Мне не по себе».",
-      "options": [
-        "Menga yoqmaydi",
-        "O'zimni noqulay his qilyapman",
-        "Bu meniki emas",
-        "Menga tegishli emas"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "«Книга, ___ я вчера купил, очень интересная».",
-      "options": [
-        "которая",
-        "которую",
-        "которой",
-        "который"
-      ],
-      "answer": 1
-    },
-    {
-      "q": "«Он не пришёл, ___ заболел».",
-      "options": [
-        "поэтому",
-        "потому что",
-        "чтобы",
-        "хотя"
-      ],
-      "answer": 1
-    }
+    {"q": "«Как вас зовут?» — bu savol nimani so'rayapti?",
+     "options": ["Ismingiz nima?", "Qayerdansiz?", "Necha yoshdasiz?", "Qayerda ishlaysiz?"], "answer": 0},
+    {"q": "To'g'ri variantni tanlang:\n«Это ___ брат».",
+     "options": ["мой", "моя", "моё", "мои"], "answer": 0},
+    {"q": "«Она ___ по-русски».",
+     "options": ["говорю", "говорит", "говорят", "говоришь"], "answer": 1},
+    {"q": "«Rahmat!» rus tilida qanday bo'ladi?",
+     "options": ["Пожалуйста", "Спасибо", "Здравствуйте", "Извините"], "answer": 1},
+    {"q": "«Я живу в ___».",
+     "options": ["Ташкент", "Ташкента", "Ташкенте", "Ташкентом"], "answer": 2},
+    {"q": "«У меня ___ сестра».",
+     "options": ["есть", "был", "буду", "будем"], "answer": 0},
+    {"q": "«Книга» so'zining ko'plik shakli qaysi?",
+     "options": ["книги", "книгы", "книгов", "книгам"], "answer": 0},
+    {"q": "«Мы ___ чай».",
+     "options": ["пью", "пьёт", "пьём", "пьют"], "answer": 2},
+    {"q": "«Вчера я ___ домой поздно».",
+     "options": ["прихожу", "пришёл", "приду", "приходит"], "answer": 1},
+    {"q": "«Я иду к ___».",
+     "options": ["врач", "врача", "врачу", "врачом"], "answer": 2},
+    {"q": "«Я пишу письмо ___».",
+     "options": ["ручка", "ручку", "ручкой", "ручке"], "answer": 2},
+    {"q": "«Завтра мы ___ в кино».",
+     "options": ["ходили", "пойдём", "шли", "ходил"], "answer": 1},
+    {"q": "«У меня нет ___».",
+     "options": ["время", "времени", "временем", "временю"], "answer": 1},
+    {"q": "«Москва ___ Ташкента».",
+     "options": ["больше", "большой", "большая", "самый"], "answer": 0},
+    {"q": "«Мне ___ пойти к врачу».",
+     "options": ["нужно", "нужен", "нужна", "нужны"], "answer": 0}
   ],
   "levels": [
-    {
-      "min": 11,
-      "level": "B1"
-    },
-    {
-      "min": 6,
-      "level": "A2"
-    },
-    {
-      "min": 0,
-      "level": "A1"
-    }
+    {"min": 11, "level": "A2"},
+    {"min": 5, "level": "A1"},
+    {"min": 0, "level": "A0"}
   ],
   "descriptions": {
-    "A1": "Siz rus tilida boshlang'ich darajadasiz. Ko'p so'zlarni tushunasiz, lekin gap tuzish va gapirish hali qiyin. Bu — eng to'g'ri boshlash nuqtasi: to'g'ri usul bilan tez o'sasiz.",
-    "A2": "Siz grammatikani qisman bilasiz va oddiy gaplarni tushunasiz. Lekin gapirishga kelganda «bilaman, lekin gapira olmayman» holati bo'ladi. Sizga eng kerakli narsa — amaliy razgovor.",
-    "B1": "Sizda yaxshi baza bor! Grammatika va so'z boyligi yetarli. Endi asosiy vazifa — qo'rqmasdan, erkin va ravon gapirishni yo'lga qo'yish."
+    "A0": "Siz rus tilini endi boshlayapsiz. Bu — eng to'g'ri boshlash nuqtasi: tayyor iboralar va oddiy gaplardan boshlab, to'g'ri usul bilan tez o'sasiz.",
+    "A1": "Siz rus tilida boshlang'ich darajadasiz. Ko'p so'zlarni tushunasiz, oddiy gaplarni bilasiz, lekin gap tuzish va gapirish hali qiyin. Sizga eng kerakli narsa — ko'proq amaliy gapirish.",
+    "A2": "Sizda yaxshi baza bor! Grammatika va so'zlarni bilasiz, oddiy suhbatni tushunasiz. Lekin gapirishga kelganda «bilaman, lekin gapira olmayman» holati bo'ladi. Endi asosiy vazifa — qo'rqmasdan, erkin gapirish."
   },
   "goal_question": "Rus tili sizga nima uchun kerak?",
-  "goal_options": [
-    "Gapirish",
-    "Milliy sertifikat",
-    "Ikkalasi"
-  ]
+  "goal_options": ["Gapirish", "Milliy sertifikat", "Ikkalasi"]
 }
